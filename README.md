@@ -1,6 +1,9 @@
-#Giphy App
+## Giphy App
 
 Esta aplicación fue generada con [`Angular CLI`] (https://github.com/angular/angular-cli) version 1.1.1.
+
+La aplicación hace uso de la API proporcionada por `Giphy` (https://developers.giphy.com/). Para una
+mejor referencia visite la página.
 
 Para probrar la aplicación es necesario tener instalado:
 `Angular` (http://angular.io)
