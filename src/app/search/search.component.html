@@ -1,0 +1,12 @@
+<div class="container">
+  <h1 class="text-center">Buscar Gifs</h1>
+  <div class="row">
+    <input type="text" class="form-control" placeholder="Busca algo como... gatos!"
+    #searchText (Keyup.enter)="search(searchText.value)">
+  </div>
+  <br>
+  <div class="wrapper">
+    <app-gif-viewr [imgUrl]="gif.images.original.url" *ngFor="let gif of gifs"></app-gif-viewr>
+  </div>
+  <input type="button" value="Cargar Más" class="btn btn-default btn-block" *ngIf="!isLoading" (click)="getMore()">
+</div>
